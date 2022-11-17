@@ -1,0 +1,77 @@
+{
+	"jcr:primaryType": "cq:Page",
+	"jcr:content": {
+		"jcr:primaryType": "cq:PageContent",
+		"jcr:mixinTypes": [
+			"mix:lockable",
+			"mix:versionable"
+		],
+		"jcr:title": "Amazon re:MARS 2022",
+		"cq:template": "/conf/vanityproject/settings/wcm/templates/generic-page",
+		"jcr:description": "Automation and Space",
+		"pageTitle": "Amazon re:MARS 2022",
+		"sling:resourceType": "vanityproject/components/page",
+		"cq:contextHubPath": "/etc/cloudsettings/default/contexthub",
+		"root": {
+			"jcr:primaryType": "nt:unstructured",
+			"layout": "responsiveGrid",
+			"id": "app",
+			"sling:resourceType": "vanityproject/components/container/root"
+		},
+		"image": {
+			"jcr:primaryType": "nt:unstructured",
+			"fileReference": "/content/page/dam/agenda.png"
+		},
+		"twitterFileReference": "/content/page/dam/agenda.png",
+		"facebookFileReference": "/content/page/dam/agenda.png"
+	},
+	"dam": {
+		"agenda.png": {
+			"jcr:primaryType": "dam:Asset",
+			"jcr:createdBy": "admin",
+			"jcr:created": "Wed May 25 2022 10:52:15 GMT+0530",
+			"jcr:content": {
+				"jcr:primaryType": "dam:AssetContent",
+				"jcr:lastModifiedBy": "admin",
+				"dam:assetState": "processed",
+				"jcr:lastModified": "Wed May 25 2022 10:52:17 GMT+0530",
+				"renditions": {
+					"jcr:primaryType": "nt:folder",
+					"jcr:createdBy": "admin",
+					"jcr:created": "Wed May 25 2022 10:52:15 GMT+0530"
+				},
+				"related": {
+					"jcr:primaryType": "nt:unstructured"
+				},
+				"metadata": {
+					"jcr:primaryType": "nt:unstructured",
+					"jcr:mixinTypes": [
+						"cq:Taggable"
+					],
+					"dam:Physicalheightininches": "-1.0",
+					"dam:Physicalwidthininches": "-1.0",
+					"dam:Fileformat": "PNG",
+					"dam:Progressive": "no",
+					"tiff:ImageLength": 36,
+					"dam:extracted": "Wed May 25 2022 10:52:16 GMT+0530",
+					"dc:format": "image/png",
+					"dc:description": "Huge margin",
+					"dam:Bitsperpixel": 32,
+					"dam:MIMEtype": "image/png",
+					"tiff:Orientation": 1,
+					"dam:Physicalwidthindpi": -1,
+					"dam:Physicalheightindpi": -1,
+					"dc:modified": "Wed May 11 2022 18:13:18 GMT+0530",
+					"dam:Numberofimages": 1,
+					"exif:PixelYDimension": 65,
+					"exif:PixelXDimension": 172,
+					"dam:Numberoftextualcomments": 1,
+					"tiff:ImageWidth": 36,
+					"dam:sha1": "682a304e104ef8e27b571da46a1276c8db8d0b5e",
+					"dam:size": 4159,
+					"dc:title": "Business Deal"
+				}
+			}
+		}
+	}
+}
